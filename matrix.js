@@ -1,6 +1,5 @@
 var matrixSize,
-    matrix = [],
-    counter = 1;
+    matrix = [];
 
 getSize();
 
@@ -33,6 +32,7 @@ function isValidValue (n) {
 }
 
 function fillArray (arr, a) {
+    var counter = 1;
     for (var i = 0; i < a; i++) {
         arr[i] = [];
         for (var j = 0; j < a; j++) {
